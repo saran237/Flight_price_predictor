@@ -13,10 +13,10 @@ st.set_page_config(
 
 # Load Model & Dataset
 
-model_path = path.join("Model", "flight_price_model.pkl")
+model_path = path.join("model", "flight_price_model.pkl")
 flight_model = joblib.load(model_path)
 
-data_path = path.join("Data", "Clean_Dataset.csv")
+data_path = path.join("data", "Clean_Dataset.csv")
 dataset = pd.read_csv(data_path)
 
 # Sidebar - User Input
